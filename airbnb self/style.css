@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#covid{
+    justify-content: center;
+    align-items: center;
+    background-color: #222222;
+    color: #a3a3a3;
+    text-align: center;
+    text-decoration: underline #a3a3a3;
+    font-size: 14px;
+    line-height: 16px !important;
+    padding: 16px 24px 16px 24px;
+}
+#header{
+    background-color: #000000;
+    padding-bottom: 2em;
+}
+.header-pic{
+    padding: 2em 0em 2em 2em;
+}
+
+/* h3{
+    position: relative;
+    margin-top: 2em;
+    margin-bottom: 0em;
+    margin-left: 1.25em;
+} */
+/*explore nearby section*/
+#explore{
+    margin-left: 5px;
+    margin-top: 5px;
+}
+.explore-pic{
+    position: relative;
+    height: 5em;
+    width: 5em;
+    border-radius: 20%;
+    margin-right: 5px;
+    margin-bottom: 10px;
+}
+.car-box{
+    position: relative;
+    margin-left: 15px;
+}
+.slider{
+    display: flex;
+    flex-direction: row;
+}
+/*live anywhere section*/
+#live{
+    margin-left: 5px;
+    margin-top: 5px;
+}
+.card{
+    margin: 10px;
+}
+/*become a host section*/
+
+/*discover experience section*/
+#discover{
+    margin-left: 5px;
+    margin-top: 70px;
+}
+/*footer menu section*/
+#footer-menu{
+    margin-left: 5px;
+    margin-top: 28px;
+    background-color: lightgray;
+}
+.explore-pic img{
+    width: 50px;
+    height: 50px;
+}
+.carousel {
+    overflow-x: auto !important;
+    display: grid !important;
+    gap: 40px !important;
+    grid-template-rows: repeat(1, auto) !important;
+    grid-template-columns: repeat(calc(var(--column-count) - 1), calc(100% - 108px)) 100% !important;
+    grid-auto-flow: column !important;
+    scroll-snap-type: x mandatory !important;
+}
